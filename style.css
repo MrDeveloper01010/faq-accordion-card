@@ -147,7 +147,9 @@ main>.attribution{
     font-size: 1.1rem;
     text-align: center;
     position: absolute;
-    bottom: 0%;
+    bottom: 3%;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
 }
 .attribution a{
     text-decoration: none;
@@ -155,8 +157,17 @@ main>.attribution{
 }
 /* Mobile version ----- 00002 */
 
-
 @media (max-width:923px) {
+    .FAQ-card-container{
+        width: 97%;
+    }
+
+    .FAQ-card-container .faq-part-container .faq-txt .faq-txt-ctn>div:first-child h2{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:740px) {
     .FAQ-card-container{
         flex-direction: column;
         position: relative;
